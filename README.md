@@ -6,7 +6,6 @@
 - kubectl (tested on v1.26.2)
 - [ingress addon](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/#enable-the-ingress-controller)
 - hosts configured (add 192.168.49.2 as minikube.local in /etc/hosts)
-- [ca-certificates](https://packages.ubuntu.com/bionic/ca-certificates)
 - web browser (tested on Mozilla Firefox 110.0 64-bit)
 
 ## Password
@@ -71,7 +70,7 @@ Open browser (in this case Mozilla Firefox) setting then search for certificate 
 
 ![](pict/certificate.png)
 
-Then you can import our CA which rootCA.pem like as shown below.
+Then you can import our CA which `rootCA.pem` like as shown below.
 
 ![](pict/import.png)
 

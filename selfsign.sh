@@ -40,6 +40,6 @@ cat server.crt | base64 > server64.crt
 
 cat server.key | base64 > server64.key
 
-sudo cp rootCA.pem /usr/local/share/ca-certificates
+# sudo cp rootCA.pem /usr/local/share/ca-certificates
 
-sudo update-ca-certificates
+# sudo update-ca-certificates
